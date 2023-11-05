@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-05T18:05:10 EST" name="Default suite" finished-at="2023-11-05T18:06:05 EST" duration-ms="55211">
+    <groups>
+    </groups>
+    <test started-at="2023-11-05T18:05:10 EST" name="Default test" finished-at="2023-11-05T18:06:05 EST" duration-ms="55211">
+      <class name="com.WebStaurantStore.TestCases.SearchItemAndEmptyCartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.WebStaurantStore.TestCases.SearchItemAndEmptyCartTest@6e171cd7]" started-at="2023-11-05T18:05:10 EST" name="setup" finished-at="2023-11-05T18:05:19 EST" duration-ms="9008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchItemTest()[pri:2, instance:com.WebStaurantStore.TestCases.SearchItemAndEmptyCartTest@6e171cd7]" started-at="2023-11-05T18:05:19 EST" name="searchItemTest" finished-at="2023-11-05T18:05:25 EST" duration-ms="5586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItemTest -->
+        <test-method signature="itemContainsKeyWordTest()[pri:3, instance:com.WebStaurantStore.TestCases.SearchItemAndEmptyCartTest@6e171cd7]" started-at="2023-11-05T18:05:25 EST" name="itemContainsKeyWordTest" finished-at="2023-11-05T18:05:52 EST" depends-on-methods="com.WebStaurantStore.TestCases.SearchItemAndEmptyCartTest.searchItemTest" duration-ms="27401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemContainsKeyWordTest -->
+        <test-method signature="addItemToCart()[pri:4, instance:com.WebStaurantStore.TestCases.SearchItemAndEmptyCartTest@6e171cd7]" started-at="2023-11-05T18:05:52 EST" name="addItemToCart" finished-at="2023-11-05T18:05:59 EST" depends-on-methods="com.WebStaurantStore.TestCases.SearchItemAndEmptyCartTest.itemContainsKeyWordTest" duration-ms="6572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemToCart -->
+        <test-method signature="emptyCart()[pri:5, instance:com.WebStaurantStore.TestCases.SearchItemAndEmptyCartTest@6e171cd7]" started-at="2023-11-05T18:05:59 EST" name="emptyCart" finished-at="2023-11-05T18:06:05 EST" depends-on-methods="com.WebStaurantStore.TestCases.SearchItemAndEmptyCartTest.addItemToCart" duration-ms="6056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WebStaurantStore.TestCases.SearchItemAndEmptyCartTest@6e171cd7]" started-at="2023-11-05T18:06:05 EST" name="tearDown" finished-at="2023-11-05T18:06:05 EST" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.WebStaurantStore.TestCases.SearchItemAndEmptyCartTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
